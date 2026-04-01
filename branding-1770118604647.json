@@ -1,0 +1,117 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Tajawal",
+      "role": "heading"
+    }
+  ],
+  "colors": {
+    "primary": "#8C7B73",
+    "accent": "#C65C39",
+    "background": "#F9F8F5",
+    "textPrimary": "#C65C39",
+    "link": "#C65C39"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Tajawal",
+      "heading": "Tajawal"
+    },
+    "fontStacks": {
+      "heading": [
+        "Tajawal",
+        "sans-serif"
+      ],
+      "body": [
+        "Tajawal",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Tajawal",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "16px",
+      "h2": "16px",
+      "body": "12px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "9px"
+  },
+  "components": {
+    "input": {
+      "background": "#F1EFEC",
+      "textColor": "#38312E",
+      "borderColor": "#EDEAE6",
+      "borderRadius": "6px",
+      "borderRadiusCorners": {
+        "topLeft": "6px",
+        "topRight": "6px",
+        "bottomRight": "6px",
+        "bottomLeft": "6px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#C65C39",
+      "textColor": "#FCFAF7",
+      "borderColor": "#FCFAF7",
+      "borderRadius": "6px",
+      "borderRadiusCorners": {
+        "topLeft": "6px",
+        "topRight": "6px",
+        "bottomRight": "6px",
+        "bottomLeft": "6px"
+      },
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(198, 92, 57, 0.25) 0px 10px 15px -3px, rgba(198, 92, 57, 0.25) 0px 4px 6px -4px"
+    }
+  },
+  "images": {
+    "logo": null,
+    "favicon": "https://arabic-sales-control.replit.app/favicon.png",
+    "ogImage": null
+  },
+  "__framework_hints": [],
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "تسجيل الدخول",
+      "reasoning": "The button with the text 'تسجيل الدخول' has a vibrant orange background (#C65C39), which is a strong indicator of a primary call-to-action. It stands out prominently against the page's background and is likely intended to be the main action for users to take on this page."
+    },
+    "secondary": {
+      "index": -1,
+      "text": "N/A",
+      "reasoning": "There is only one button detected on the page, so no secondary button can be identified. The primary button's color is unique, and no other button with a different color exists."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "business professionals"
+  },
+  "designSystem": {
+    "framework": "tailwind",
+    "componentLibrary": "shadcn"
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": false,
+      "llmSucceeded": false,
+      "finalSource": "none"
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
